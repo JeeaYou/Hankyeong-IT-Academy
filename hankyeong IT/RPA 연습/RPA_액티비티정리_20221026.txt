@@ -1,0 +1,17 @@
+<액티비티(개발도구) 정리>
+1) Assign : 변수 할당 액티비티
+2) Type Into : 키보드 액티비티(타이핑)
+→ 필수체크 옵션(빈필드(Empty Field), 입력전 클릭(ClickBeforeTyping)
+3) Click : 마우스 액티비티
+4) Open Browser : 브라우저 열기 액티비티
+→ 필수확인 : 브라우저 타입(Browser for Type)
+5) Maximize Window : 창 확대 액티비티(에러 방지)
+6) Delay : 지연 액티비티(00:00:02)
+7) Get Text : 텍스트 추출 액티비티
+8) Excel Application Scope : 엑셀 주소 호출 액티비티
+9) Write Range : 엑셀 데이터 쓰기 액티비티(변수 : Datatable)
+10) Select Item : 드롭박스 선택 액티비티
+11) For Each : 배열, 리스트 반복문
+12) For Each Row in Datatable : 데이터테이블 반복문
+13) Build Data Table : 데이터테이블 만드는 액티비티(초기화 x)  *반복문안에 절대 쓰지 않는다.
+14) Add Data Row : Build Data Table에 한 Row씩 추가할 때 사용하는 액티비티

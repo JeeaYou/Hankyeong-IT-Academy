@@ -1,0 +1,3 @@
+InvoiceNumber,Item,Amount,Tax,Total,Currency,Date
+539579,"IT Support",139095,27819,166914,CAD,2017-09-01
+240655,"Beverages and Catering",195316,39063.2,234379,CAD,2017-09-22
