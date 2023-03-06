@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta http-equiv="X-UA-Compatible" content="IE=edge">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Document</title>
+</head>
+<body>
+	<form action="/navermap" method="post" >
+		<p>주소입력 : <input type="text" id="input" name="address" placeholder="예:서울시 강남구 논현1동"  style="width:300px"></p>
+		
+		<input type="radio" name="radio_info" value="아파트" checked="checked">아파트.오피스텔
+		<input type="radio" name="radio_info" value="빌라">빌라.주택
+		<input type="radio" name="radio_info" value="원룸">원룸.투룸
+		<input type="radio" name="radio_info" value="상가">상가.업무.공장.토지
+		<input type="radio" name="radio_info" value="분양">분양
+				
+		<p><input type="submit" value="지도보기"></p>
+	</form>
+</body>
+</html>

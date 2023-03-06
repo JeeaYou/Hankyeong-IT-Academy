@@ -1,0 +1,697 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_ade55dfa5858a029c2340626d132e015 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/leaflet.markercluster.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/leaflet.markercluster/1.1.0/MarkerCluster.Default.css"/>
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_ade55dfa5858a029c2340626d132e015" ></div>
+        
+</body>
+<script>    
+    
+            var map_ade55dfa5858a029c2340626d132e015 = L.map(
+                "map_ade55dfa5858a029c2340626d132e015",
+                {
+                    center: [36.5053542, 127.7043419],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 7,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_eaa6cca8aa12756c056ca633e8394937 = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_ade55dfa5858a029c2340626d132e015);
+        
+    
+            var marker_cluster_f3a8a14e1b21adc33591f75c743f1446 = L.markerClusterGroup(
+                {}
+            );
+            map_ade55dfa5858a029c2340626d132e015.addLayer(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var marker_b496792c55ee43121db900792d318bd0 = L.marker(
+                [37.5636465, 126.9895796],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_656020a46698dd1c16d6145aa5375e1e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b496792c55ee43121db900792d318bd0.setIcon(icon_656020a46698dd1c16d6145aa5375e1e);
+        
+    
+        var popup_2929e5385454c1f32c0c789f765718d7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_94422f4d65c5da0d709ec3ca9dbae398 = $(`<div id="html_94422f4d65c5da0d709ec3ca9dbae398" style="width: 100.0%; height: 100.0%;">중부경찰서</div>`)[0];
+            popup_2929e5385454c1f32c0c789f765718d7.setContent(html_94422f4d65c5da0d709ec3ca9dbae398);
+        
+
+        marker_b496792c55ee43121db900792d318bd0.bindPopup(popup_2929e5385454c1f32c0c789f765718d7)
+        ;
+
+        
+    
+    
+            var marker_7f39f23096ce14871f705d08dde3b414 = L.marker(
+                [37.5636465, 126.9895796],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_511ab65dcf70211701adebff2379c731 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7f39f23096ce14871f705d08dde3b414.setIcon(icon_511ab65dcf70211701adebff2379c731);
+        
+    
+        var popup_072731d0d8610b3d44ea0e727d71c16e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_4de38a5d3c45b86ba50aa2dc9c63349a = $(`<div id="html_4de38a5d3c45b86ba50aa2dc9c63349a" style="width: 100.0%; height: 100.0%;">중구경찰서</div>`)[0];
+            popup_072731d0d8610b3d44ea0e727d71c16e.setContent(html_4de38a5d3c45b86ba50aa2dc9c63349a);
+        
+
+        marker_7f39f23096ce14871f705d08dde3b414.bindPopup(popup_072731d0d8610b3d44ea0e727d71c16e)
+        ;
+
+        
+    
+    
+            var marker_555c14273e84a2c5256d66f2e88cae22 = L.marker(
+                [37.5411211, 126.9676935],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_7b7fcdf2eab0e49fb15affda3b6a62bd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_555c14273e84a2c5256d66f2e88cae22.setIcon(icon_7b7fcdf2eab0e49fb15affda3b6a62bd);
+        
+    
+        var popup_ab072cebd43f01be866a99a74989572e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e15717e138008454cd7d1a834d629aae = $(`<div id="html_e15717e138008454cd7d1a834d629aae" style="width: 100.0%; height: 100.0%;">용산구경찰서</div>`)[0];
+            popup_ab072cebd43f01be866a99a74989572e.setContent(html_e15717e138008454cd7d1a834d629aae);
+        
+
+        marker_555c14273e84a2c5256d66f2e88cae22.bindPopup(popup_ab072cebd43f01be866a99a74989572e)
+        ;
+
+        
+    
+    
+            var marker_089e9d0d27c6885ee7970b6de3b7ddfa = L.marker(
+                [37.5617309, 127.0363806],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_0cc86963f5adf69916d3bff2ef6453b6 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_089e9d0d27c6885ee7970b6de3b7ddfa.setIcon(icon_0cc86963f5adf69916d3bff2ef6453b6);
+        
+    
+        var popup_acc2ef45e9b6a28166cf66b6801420bf = L.popup({"maxWidth": "100%"});
+
+        
+            var html_829b0cb33d95048375073ebb332bae22 = $(`<div id="html_829b0cb33d95048375073ebb332bae22" style="width: 100.0%; height: 100.0%;">성동구경찰서</div>`)[0];
+            popup_acc2ef45e9b6a28166cf66b6801420bf.setContent(html_829b0cb33d95048375073ebb332bae22);
+        
+
+        marker_089e9d0d27c6885ee7970b6de3b7ddfa.bindPopup(popup_acc2ef45e9b6a28166cf66b6801420bf)
+        ;
+
+        
+    
+    
+            var marker_6d8c34bafe4a9d0605c33111c648dff0 = L.marker(
+                [37.542873, 127.083821],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_223ad7653d20e23973ec5de2a63a3ae0 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_6d8c34bafe4a9d0605c33111c648dff0.setIcon(icon_223ad7653d20e23973ec5de2a63a3ae0);
+        
+    
+        var popup_979c5ebae427a0dd7c027a3af310bddd = L.popup({"maxWidth": "100%"});
+
+        
+            var html_03c01b33ce15aea1fa42ee9c17f6668e = $(`<div id="html_03c01b33ce15aea1fa42ee9c17f6668e" style="width: 100.0%; height: 100.0%;">광진구경찰서</div>`)[0];
+            popup_979c5ebae427a0dd7c027a3af310bddd.setContent(html_03c01b33ce15aea1fa42ee9c17f6668e);
+        
+
+        marker_6d8c34bafe4a9d0605c33111c648dff0.bindPopup(popup_979c5ebae427a0dd7c027a3af310bddd)
+        ;
+
+        
+    
+    
+            var marker_3ab2d34930a572cf1e4d5bc797619fc8 = L.marker(
+                [37.58506149999999, 127.0457679],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_14c6209de9d7edcd8f763c9513302bfa = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_3ab2d34930a572cf1e4d5bc797619fc8.setIcon(icon_14c6209de9d7edcd8f763c9513302bfa);
+        
+    
+        var popup_a88b38e54e097aa2ab65814d4f968d65 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_0fc3f30a999d44083b9b6c2ed817e920 = $(`<div id="html_0fc3f30a999d44083b9b6c2ed817e920" style="width: 100.0%; height: 100.0%;">동대문구경찰서</div>`)[0];
+            popup_a88b38e54e097aa2ab65814d4f968d65.setContent(html_0fc3f30a999d44083b9b6c2ed817e920);
+        
+
+        marker_3ab2d34930a572cf1e4d5bc797619fc8.bindPopup(popup_a88b38e54e097aa2ab65814d4f968d65)
+        ;
+
+        
+    
+    
+            var marker_ae1e3abcceb3721ff204a42e56bc2c53 = L.marker(
+                [37.618692, 127.1047136],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_00afcfb1879c699d0b339c29627b88dd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ae1e3abcceb3721ff204a42e56bc2c53.setIcon(icon_00afcfb1879c699d0b339c29627b88dd);
+        
+    
+        var popup_b549af3a630fcddaa2c08a5afa71ee4c = L.popup({"maxWidth": "100%"});
+
+        
+            var html_e4c5deb2644c1c061a911764be316b27 = $(`<div id="html_e4c5deb2644c1c061a911764be316b27" style="width: 100.0%; height: 100.0%;">중랑구경찰서</div>`)[0];
+            popup_b549af3a630fcddaa2c08a5afa71ee4c.setContent(html_e4c5deb2644c1c061a911764be316b27);
+        
+
+        marker_ae1e3abcceb3721ff204a42e56bc2c53.bindPopup(popup_b549af3a630fcddaa2c08a5afa71ee4c)
+        ;
+
+        
+    
+    
+            var marker_2c2ca598f7bed97dd49eb6bbbc7a318f = L.marker(
+                [37.5897482, 127.0161353],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_95062de18c7a05d1b4e5473220295da5 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2c2ca598f7bed97dd49eb6bbbc7a318f.setIcon(icon_95062de18c7a05d1b4e5473220295da5);
+        
+    
+        var popup_640dfdff7c6b770a28da5199483e22fa = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f0d5468a2cdc2a2791d0f7c33acf6c74 = $(`<div id="html_f0d5468a2cdc2a2791d0f7c33acf6c74" style="width: 100.0%; height: 100.0%;">성북구경찰서</div>`)[0];
+            popup_640dfdff7c6b770a28da5199483e22fa.setContent(html_f0d5468a2cdc2a2791d0f7c33acf6c74);
+        
+
+        marker_2c2ca598f7bed97dd49eb6bbbc7a318f.bindPopup(popup_640dfdff7c6b770a28da5199483e22fa)
+        ;
+
+        
+    
+    
+            var marker_ae8d6a0f71659adda41ce4cbd8187917 = L.marker(
+                [37.63730390000001, 127.0273399],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_6f20cbb5a67bd038c7a1bdce4faa5dc9 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_ae8d6a0f71659adda41ce4cbd8187917.setIcon(icon_6f20cbb5a67bd038c7a1bdce4faa5dc9);
+        
+    
+        var popup_331783ac0859f993cd1431245efe719f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_44b7d3ab8eacc2974f4ed6de42085be8 = $(`<div id="html_44b7d3ab8eacc2974f4ed6de42085be8" style="width: 100.0%; height: 100.0%;">강북구경찰서</div>`)[0];
+            popup_331783ac0859f993cd1431245efe719f.setContent(html_44b7d3ab8eacc2974f4ed6de42085be8);
+        
+
+        marker_ae8d6a0f71659adda41ce4cbd8187917.bindPopup(popup_331783ac0859f993cd1431245efe719f)
+        ;
+
+        
+    
+    
+            var marker_9b217d8b1184f8c66974fe62be5a9233 = L.marker(
+                [37.6533589, 127.052682],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_e5124c3e4d39e34f2eac1bbf91749884 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_9b217d8b1184f8c66974fe62be5a9233.setIcon(icon_e5124c3e4d39e34f2eac1bbf91749884);
+        
+    
+        var popup_b225a57b7381cc12e8470e2133f23011 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_393291f13e69655a270e723dc25fe40b = $(`<div id="html_393291f13e69655a270e723dc25fe40b" style="width: 100.0%; height: 100.0%;">도봉구경찰서</div>`)[0];
+            popup_b225a57b7381cc12e8470e2133f23011.setContent(html_393291f13e69655a270e723dc25fe40b);
+        
+
+        marker_9b217d8b1184f8c66974fe62be5a9233.bindPopup(popup_b225a57b7381cc12e8470e2133f23011)
+        ;
+
+        
+    
+    
+            var marker_63c02c758299452d288d552a9a86c150 = L.marker(
+                [37.6423605, 127.0714027],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_9ffcb0a701a019983215e41c8b766202 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_63c02c758299452d288d552a9a86c150.setIcon(icon_9ffcb0a701a019983215e41c8b766202);
+        
+    
+        var popup_b88d0e0517d8fbda3c4c7d0a4b049fc9 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cce3f5a867e362b0e950f89e0495258f = $(`<div id="html_cce3f5a867e362b0e950f89e0495258f" style="width: 100.0%; height: 100.0%;">노원구경찰서</div>`)[0];
+            popup_b88d0e0517d8fbda3c4c7d0a4b049fc9.setContent(html_cce3f5a867e362b0e950f89e0495258f);
+        
+
+        marker_63c02c758299452d288d552a9a86c150.bindPopup(popup_b88d0e0517d8fbda3c4c7d0a4b049fc9)
+        ;
+
+        
+    
+    
+            var marker_b70485fd993d63a9a25c5a1563438012 = L.marker(
+                [37.6283597, 126.9287226],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_303534c396de5995d090867395f2bf44 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_b70485fd993d63a9a25c5a1563438012.setIcon(icon_303534c396de5995d090867395f2bf44);
+        
+    
+        var popup_095a11ca2782c15567ced06128ed41c0 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f533b7272ec34eea86266624b6b453fb = $(`<div id="html_f533b7272ec34eea86266624b6b453fb" style="width: 100.0%; height: 100.0%;">은평구경찰서</div>`)[0];
+            popup_095a11ca2782c15567ced06128ed41c0.setContent(html_f533b7272ec34eea86266624b6b453fb);
+        
+
+        marker_b70485fd993d63a9a25c5a1563438012.bindPopup(popup_095a11ca2782c15567ced06128ed41c0)
+        ;
+
+        
+    
+    
+            var marker_d2513c1ab440b45a55ecfdd3322f8a08 = L.marker(
+                [37.5647848, 126.9667762],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_0cf1258a5bf659c3ac119113c1bc894e = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d2513c1ab440b45a55ecfdd3322f8a08.setIcon(icon_0cf1258a5bf659c3ac119113c1bc894e);
+        
+    
+        var popup_5c5d33e967a120f580fcfc018a748a4e = L.popup({"maxWidth": "100%"});
+
+        
+            var html_66213ebdde02bcebcdfca0f6c977fb71 = $(`<div id="html_66213ebdde02bcebcdfca0f6c977fb71" style="width: 100.0%; height: 100.0%;">서대문구경찰서</div>`)[0];
+            popup_5c5d33e967a120f580fcfc018a748a4e.setContent(html_66213ebdde02bcebcdfca0f6c977fb71);
+        
+
+        marker_d2513c1ab440b45a55ecfdd3322f8a08.bindPopup(popup_5c5d33e967a120f580fcfc018a748a4e)
+        ;
+
+        
+    
+    
+            var marker_2139be88e688e69520762e4e418d861b = L.marker(
+                [37.550814, 126.954028],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_9c4e3c8e604d856fbc09eb7ad49f4017 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2139be88e688e69520762e4e418d861b.setIcon(icon_9c4e3c8e604d856fbc09eb7ad49f4017);
+        
+    
+        var popup_7b70396936d41c939232d64c83002726 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_cce630ef7ed89e1eb4bbd300d975e046 = $(`<div id="html_cce630ef7ed89e1eb4bbd300d975e046" style="width: 100.0%; height: 100.0%;">마포구경찰서</div>`)[0];
+            popup_7b70396936d41c939232d64c83002726.setContent(html_cce630ef7ed89e1eb4bbd300d975e046);
+        
+
+        marker_2139be88e688e69520762e4e418d861b.bindPopup(popup_7b70396936d41c939232d64c83002726)
+        ;
+
+        
+    
+    
+            var marker_2ab8812f1eeb186c8bbcd5405e7adaf3 = L.marker(
+                [37.5165667, 126.8656763],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_f22771490f07959fa83235999813dd50 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_2ab8812f1eeb186c8bbcd5405e7adaf3.setIcon(icon_f22771490f07959fa83235999813dd50);
+        
+    
+        var popup_546cc1fea712a90e22dcc2ae20af7c80 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_7f9b3599c6fa46b9da21471f4a2f95eb = $(`<div id="html_7f9b3599c6fa46b9da21471f4a2f95eb" style="width: 100.0%; height: 100.0%;">양천구경찰서</div>`)[0];
+            popup_546cc1fea712a90e22dcc2ae20af7c80.setContent(html_7f9b3599c6fa46b9da21471f4a2f95eb);
+        
+
+        marker_2ab8812f1eeb186c8bbcd5405e7adaf3.bindPopup(popup_546cc1fea712a90e22dcc2ae20af7c80)
+        ;
+
+        
+    
+    
+            var marker_836c9e413360386248b172ec400ecbae = L.marker(
+                [37.5397827, 126.8299968],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_e764f22166f4fb507bb881c6902d5a09 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_836c9e413360386248b172ec400ecbae.setIcon(icon_e764f22166f4fb507bb881c6902d5a09);
+        
+    
+        var popup_483793ec0e7e75ece27f9e652a6f1378 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_527dd452a328765ce9c9203b65ad5d88 = $(`<div id="html_527dd452a328765ce9c9203b65ad5d88" style="width: 100.0%; height: 100.0%;">강서구경찰서</div>`)[0];
+            popup_483793ec0e7e75ece27f9e652a6f1378.setContent(html_527dd452a328765ce9c9203b65ad5d88);
+        
+
+        marker_836c9e413360386248b172ec400ecbae.bindPopup(popup_483793ec0e7e75ece27f9e652a6f1378)
+        ;
+
+        
+    
+    
+            var marker_e1e43c1751dc80cc42ca144e9390db7d = L.marker(
+                [37.494931, 126.886731],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_742033d61a539f669e6734d015b6a30c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_e1e43c1751dc80cc42ca144e9390db7d.setIcon(icon_742033d61a539f669e6734d015b6a30c);
+        
+    
+        var popup_40467dc900441698224458ee746ffb47 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_41587da6e90e3f620a5ce2dc3ffd7400 = $(`<div id="html_41587da6e90e3f620a5ce2dc3ffd7400" style="width: 100.0%; height: 100.0%;">구로구경찰서</div>`)[0];
+            popup_40467dc900441698224458ee746ffb47.setContent(html_41587da6e90e3f620a5ce2dc3ffd7400);
+        
+
+        marker_e1e43c1751dc80cc42ca144e9390db7d.bindPopup(popup_40467dc900441698224458ee746ffb47)
+        ;
+
+        
+    
+    
+            var marker_db8e63cac046e95941a103aeeac79880 = L.marker(
+                [37.4568722, 126.8970429],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_9409bbad8c7f6689b34c7bf5ce86a34d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_db8e63cac046e95941a103aeeac79880.setIcon(icon_9409bbad8c7f6689b34c7bf5ce86a34d);
+        
+    
+        var popup_062b1fe6f5fdd3b65f4a851ab94833bb = L.popup({"maxWidth": "100%"});
+
+        
+            var html_8ca8d0f69df5ce3bc04578b3f8f8b9aa = $(`<div id="html_8ca8d0f69df5ce3bc04578b3f8f8b9aa" style="width: 100.0%; height: 100.0%;">금천구경찰서</div>`)[0];
+            popup_062b1fe6f5fdd3b65f4a851ab94833bb.setContent(html_8ca8d0f69df5ce3bc04578b3f8f8b9aa);
+        
+
+        marker_db8e63cac046e95941a103aeeac79880.bindPopup(popup_062b1fe6f5fdd3b65f4a851ab94833bb)
+        ;
+
+        
+    
+    
+            var marker_d716e4568be765485dcb7333a7c3ab0d = L.marker(
+                [37.5179839, 126.9075056],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_9fb3320bd8cb364628c6689022981abd = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_d716e4568be765485dcb7333a7c3ab0d.setIcon(icon_9fb3320bd8cb364628c6689022981abd);
+        
+    
+        var popup_fe61acce83d74a3c5849529330fd501a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f046ca55df616bf318d8b7e8852bed9a = $(`<div id="html_f046ca55df616bf318d8b7e8852bed9a" style="width: 100.0%; height: 100.0%;">영등포구경찰서</div>`)[0];
+            popup_fe61acce83d74a3c5849529330fd501a.setContent(html_f046ca55df616bf318d8b7e8852bed9a);
+        
+
+        marker_d716e4568be765485dcb7333a7c3ab0d.bindPopup(popup_fe61acce83d74a3c5849529330fd501a)
+        ;
+
+        
+    
+    
+            var marker_0af16ed09c20424b56e5401a52a186c0 = L.marker(
+                [37.5130866, 126.9428498],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_ba37038c4103c1c5f19f8d3ce359b31b = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0af16ed09c20424b56e5401a52a186c0.setIcon(icon_ba37038c4103c1c5f19f8d3ce359b31b);
+        
+    
+        var popup_7bf42ae8589f2eadaa934cdf2b78020f = L.popup({"maxWidth": "100%"});
+
+        
+            var html_359af8733ed264dece9eb523335858bf = $(`<div id="html_359af8733ed264dece9eb523335858bf" style="width: 100.0%; height: 100.0%;">동작구경찰서</div>`)[0];
+            popup_7bf42ae8589f2eadaa934cdf2b78020f.setContent(html_359af8733ed264dece9eb523335858bf);
+        
+
+        marker_0af16ed09c20424b56e5401a52a186c0.bindPopup(popup_7bf42ae8589f2eadaa934cdf2b78020f)
+        ;
+
+        
+    
+    
+            var marker_7ad98716c5bfa315582eadb562b4d667 = L.marker(
+                [37.4743789, 126.9509748],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_a1388858c0d41c3501723d95ea57ba6f = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7ad98716c5bfa315582eadb562b4d667.setIcon(icon_a1388858c0d41c3501723d95ea57ba6f);
+        
+    
+        var popup_f85df9f92b3fa44d121fa12fd40fb81d = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f181aca1abfe13798001f0a89c45b67a = $(`<div id="html_f181aca1abfe13798001f0a89c45b67a" style="width: 100.0%; height: 100.0%;">관악구경찰서</div>`)[0];
+            popup_f85df9f92b3fa44d121fa12fd40fb81d.setContent(html_f181aca1abfe13798001f0a89c45b67a);
+        
+
+        marker_7ad98716c5bfa315582eadb562b4d667.bindPopup(popup_f85df9f92b3fa44d121fa12fd40fb81d)
+        ;
+
+        
+    
+    
+            var marker_0d5d92139ab5263a521280462ef032a0 = L.marker(
+                [37.4956054, 127.0052504],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_1af8b0cab28b4e7e4537057ba4ea9036 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_0d5d92139ab5263a521280462ef032a0.setIcon(icon_1af8b0cab28b4e7e4537057ba4ea9036);
+        
+    
+        var popup_7247b0fb2f798cdb118fb865c679870a = L.popup({"maxWidth": "100%"});
+
+        
+            var html_5a9583d7efd897368ea64e4079cf39f3 = $(`<div id="html_5a9583d7efd897368ea64e4079cf39f3" style="width: 100.0%; height: 100.0%;">서초구경찰서</div>`)[0];
+            popup_7247b0fb2f798cdb118fb865c679870a.setContent(html_5a9583d7efd897368ea64e4079cf39f3);
+        
+
+        marker_0d5d92139ab5263a521280462ef032a0.bindPopup(popup_7247b0fb2f798cdb118fb865c679870a)
+        ;
+
+        
+    
+    
+            var marker_7ef56e7c1c8eccae1105c98a82bfa816 = L.marker(
+                [37.5094352, 127.0669578],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_a73dd588368cb25da54af5746772456c = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_7ef56e7c1c8eccae1105c98a82bfa816.setIcon(icon_a73dd588368cb25da54af5746772456c);
+        
+    
+        var popup_e02b5c80da96c5d4ff8adde3d3ce5866 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_509cd0db0d59b3e2afe131a946c1fba2 = $(`<div id="html_509cd0db0d59b3e2afe131a946c1fba2" style="width: 100.0%; height: 100.0%;">강남구경찰서</div>`)[0];
+            popup_e02b5c80da96c5d4ff8adde3d3ce5866.setContent(html_509cd0db0d59b3e2afe131a946c1fba2);
+        
+
+        marker_7ef56e7c1c8eccae1105c98a82bfa816.bindPopup(popup_e02b5c80da96c5d4ff8adde3d3ce5866)
+        ;
+
+        
+    
+    
+            var marker_27866270f8419713abc5c6d6d86e899d = L.marker(
+                [37.5019065, 127.1271513],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_8f17cbd9fcb5713358dba797cbfbd92d = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_27866270f8419713abc5c6d6d86e899d.setIcon(icon_8f17cbd9fcb5713358dba797cbfbd92d);
+        
+    
+        var popup_277526fca58ee6db5359c3ad5215a1af = L.popup({"maxWidth": "100%"});
+
+        
+            var html_b09ca70a8df7f4f5378c52d0a19e0fdc = $(`<div id="html_b09ca70a8df7f4f5378c52d0a19e0fdc" style="width: 100.0%; height: 100.0%;">송파구경찰서</div>`)[0];
+            popup_277526fca58ee6db5359c3ad5215a1af.setContent(html_b09ca70a8df7f4f5378c52d0a19e0fdc);
+        
+
+        marker_27866270f8419713abc5c6d6d86e899d.bindPopup(popup_277526fca58ee6db5359c3ad5215a1af)
+        ;
+
+        
+    
+    
+            var marker_18bef39430e920ef60cc190beb48be80 = L.marker(
+                [37.528511, 127.1268224],
+                {}
+            ).addTo(marker_cluster_f3a8a14e1b21adc33591f75c743f1446);
+        
+    
+            var icon_88e85a7cab20209a8c7b12fd33098948 = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "ok", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_18bef39430e920ef60cc190beb48be80.setIcon(icon_88e85a7cab20209a8c7b12fd33098948);
+        
+    
+        var popup_abde920cd77849d185fe9f46744c3704 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_367f2bfdd05146ffeb214576ef85c4f0 = $(`<div id="html_367f2bfdd05146ffeb214576ef85c4f0" style="width: 100.0%; height: 100.0%;">강동구경찰서</div>`)[0];
+            popup_abde920cd77849d185fe9f46744c3704.setContent(html_367f2bfdd05146ffeb214576ef85c4f0);
+        
+
+        marker_18bef39430e920ef60cc190beb48be80.bindPopup(popup_abde920cd77849d185fe9f46744c3704)
+        ;
+
+        
+    
+</script>

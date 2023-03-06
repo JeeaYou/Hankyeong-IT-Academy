@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<head>    
+    <meta http-equiv="content-type" content="text/html; charset=UTF-8" />
+    
+        <script>
+            L_NO_TOUCH = false;
+            L_DISABLE_3D = false;
+        </script>
+    
+    <style>html, body {width: 100%;height: 100%;margin: 0;padding: 0;}</style>
+    <style>#map {position:absolute;top:0;bottom:0;right:0;left:0;}</style>
+    <script src="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-1.12.4.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.js"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/leaflet@1.6.0/dist/leaflet.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css"/>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/font-awesome/4.6.3/css/font-awesome.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Leaflet.awesome-markers/2.0.2/leaflet.awesome-markers.css"/>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/python-visualization/folium/folium/templates/leaflet.awesome.rotate.min.css"/>
+    
+            <meta name="viewport" content="width=device-width,
+                initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+            <style>
+                #map_d3a267d689ed318b1d55880b95b36620 {
+                    position: relative;
+                    width: 100.0%;
+                    height: 100.0%;
+                    left: 0.0%;
+                    top: 0.0%;
+                }
+            </style>
+        
+</head>
+<body>    
+    
+            <div class="folium-map" id="map_d3a267d689ed318b1d55880b95b36620" ></div>
+        
+</body>
+<script>    
+    
+            var map_d3a267d689ed318b1d55880b95b36620 = L.map(
+                "map_d3a267d689ed318b1d55880b95b36620",
+                {
+                    center: [37.4963111, 126.9552709],
+                    crs: L.CRS.EPSG3857,
+                    zoom: 15,
+                    zoomControl: true,
+                    preferCanvas: false,
+                }
+            );
+
+            
+
+        
+    
+            var tile_layer_752be69916d733274ab9979c003f493e = L.tileLayer(
+                "https://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png",
+                {"attribution": "Data by \u0026copy; \u003ca href=\"http://openstreetmap.org\"\u003eOpenStreetMap\u003c/a\u003e, under \u003ca href=\"http://www.openstreetmap.org/copyright\"\u003eODbL\u003c/a\u003e.", "detectRetina": false, "maxNativeZoom": 18, "maxZoom": 18, "minZoom": 0, "noWrap": false, "opacity": 1, "subdomains": "abc", "tms": false}
+            ).addTo(map_d3a267d689ed318b1d55880b95b36620);
+        
+    
+            var marker_89af62b31d67fe0fac30577061072a12 = L.marker(
+                [37.4963111, 126.9552709],
+                {}
+            ).addTo(map_d3a267d689ed318b1d55880b95b36620);
+        
+    
+            var icon_da0d542f036a0409457b3023f099946a = L.AwesomeMarkers.icon(
+                {"extraClasses": "fa-rotate-0", "icon": "fire", "iconColor": "white", "markerColor": "red", "prefix": "glyphicon"}
+            );
+            marker_89af62b31d67fe0fac30577061072a12.setIcon(icon_da0d542f036a0409457b3023f099946a);
+        
+    
+        var popup_108c1e4890fb5a1235fd8bda91de7ae7 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_f062728de0d9162e57c4448613e8d514 = $(`<div id="html_f062728de0d9162e57c4448613e8d514" style="width: 100.0%; height: 100.0%;">University of Seoul</div>`)[0];
+            popup_108c1e4890fb5a1235fd8bda91de7ae7.setContent(html_f062728de0d9162e57c4448613e8d514);
+        
+
+        marker_89af62b31d67fe0fac30577061072a12.bindPopup(popup_108c1e4890fb5a1235fd8bda91de7ae7)
+        ;
+
+        
+    
+    
+            var circle_marker_2b86d056f42a442d3cc3f4fa6ea6da7e = L.circleMarker(
+                [37.4963111, 126.9552709],
+                {"bubblingMouseEvents": true, "color": "#ffffgg", "dashArray": null, "dashOffset": null, "fill": true, "fillColor": "#fffggg", "fillOpacity": 0.2, "fillRule": "evenodd", "lineCap": "round", "lineJoin": "round", "opacity": 1.0, "radius": 100, "stroke": true, "weight": 3}
+            ).addTo(map_d3a267d689ed318b1d55880b95b36620);
+        
+    
+        var popup_b35f4117415e8818ddafa1b379815555 = L.popup({"maxWidth": "100%"});
+
+        
+            var html_00e3683154efe8532bb143ef725eff09 = $(`<div id="html_00e3683154efe8532bb143ef725eff09" style="width: 100.0%; height: 100.0%;">University of Seoul</div>`)[0];
+            popup_b35f4117415e8818ddafa1b379815555.setContent(html_00e3683154efe8532bb143ef725eff09);
+        
+
+        circle_marker_2b86d056f42a442d3cc3f4fa6ea6da7e.bindPopup(popup_b35f4117415e8818ddafa1b379815555)
+        ;
+
+        
+    
+</script>

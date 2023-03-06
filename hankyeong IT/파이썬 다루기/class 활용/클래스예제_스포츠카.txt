@@ -1,0 +1,45 @@
+class Car:
+    def __init__(self): # 초기값 설정
+        self.max_speed = 160 #최고속력 
+        self.min_speed = 0 #최저속력
+        self.speed = 0  #기본속력
+        
+    def check_speed(self,speed): #속도 상/하한 체크
+        
+        if self.speed < self.min_speed : # 최저속력 체크
+            self.speed = self.min_speed #최저속력으로 보정
+        if self.speed > self.max_speed: #최고속력 체크
+            self.speed = self.max_speed #보정
+        return self.speed # 값 반환
+       
+    def speed_up(self,up_speed = 20): #속력 증가
+        
+        self.speed += up_speed #속력 증가
+        self.check_speed(self.speed) #속력 체크
+        print(self.speed) #최종 속력 프린트
+        return 
+    def speed_down(self,down_speed = 20): #속력 감소
+        self.speed -= down_speed
+        self.check_speed(self.speed) #속력 체크
+        print(self.speed) #프린트
+        return 
+
+
+class SportCar(Car):
+    def __init__(self):
+        super(SportCar,self).__init__()
+        self.max_speed = 200 #스포츠카 최고속력 200으로 변환
+    def speed_up(self): #
+        super(SportCar,self).speed_up(up_speed=45)
+    def speed_down(self):
+        super(SportCar,self).speed_down(down_speed = 45)
+        
+
+class Truck(Car):
+    def __init__(self):
+        super(Truck,self).__init__()
+        self.max_speed = 100
+    def speed_up(self):
+        super(Truck,self).speed_up(up_speed=15)
+    def speed_down(self):
+        super(Truck,self).speed_down(down_speed = 15)

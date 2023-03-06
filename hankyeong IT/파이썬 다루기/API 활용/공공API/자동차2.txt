@@ -1,0 +1,44 @@
+# 연습 문제 2.12.5 - 자동차2 
+
+class Car(object) :
+    def __init__(self):
+        self.max_speed = 160
+        self.speed=0
+    def speed_up(self):
+        self.speed+=20 
+        print('speed up!',self.speed)
+    def speed_down(self):
+        self.speed-=20 
+        if self.speed <=0:
+            print('스피드가 0보다 작아용',self.speed)
+        else:
+            print('break!',self.speed)
+        
+class SportCar(Car):
+    def __init__(self):
+        super(SportCar,self).__init__()
+        self.max_speed = 200
+        self.speed = 0
+    def speed_up(self):
+        self.speed+=45 
+        print('얏호 스피드를 올리자!',self.speed)
+    def speed_down(self):
+        self.speed-=45 
+        print('브레이크 밟아!',self.speed)
+class Truck(Car):
+    def __init__(self):
+        super(Truck,self).__init__()
+        self.max_speed = 100
+        self.speed = 0
+    def speed_up(self):
+        self.speed+=15 
+        if self.speed <=0:
+            print('스포츠카에서 이런 속도를 낼수없다..',self.speed)
+        else:
+            print('부르릉 스피드!',self.speed)
+    def speed_down(self):
+        self.speed-=15 
+        if self.speed <=0:
+            print('스피드가 0보다 작아용',self.speed)
+        else: 
+            print('브레이크!',self.speed)
