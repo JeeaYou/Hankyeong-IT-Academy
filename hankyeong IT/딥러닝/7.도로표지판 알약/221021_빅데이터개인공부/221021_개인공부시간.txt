@@ -1,0 +1,39 @@
+관심 분야-금융(PG서비스(전자결제), 기프티콘, 핀테크),유통(E커머스,폐쇄몰), 교통
+- 해당 데이터를 어떻게 활용하는가? 궁금해서 이런 걸 찾아봤습니당 
+
+참고하기 좋은 통계 사이트 
+- 통계데이터센터 (통계청) 
+ > https://data.kostat.go.kr/sbchome/index.do 
+- K-ICT 빅데이터센터 
+ > https://kbig.kr/portal/kbig/knowledge/bigdata_report.page
+- 2021 빅데이터플랫폼&센터 (from K-ICT 빅데이터센터) 
+ > 2021빅데이터플랫폼센터_최종.pdf 
+ > 각 플랫폼 별로 개념도도 있고, 우수사례가 간단하게 나와있어서 편함 
+- 중소기업 사례집 (선생님이랑 한 거) 
+ > 중소기업+빅데이터+분석활용+지원사업+우수사례집.pdf 
+- 한국데이터거래소 (매일방송MBN) 
+ > https://kdx.kr/main 
+
+금융 분야 
+- 금융 빅데이터 플랫폼 (BC카드) 
+ > https://www.bigdata-finance.kr/main.do 
+ > 유료인게 많아서 조금 불편.... 그래도 참고하기는 좋을 듯? 
+
+유통 
+- 2020 미디어 콘텐츠 소비 트렌드 
+ > 파일: 미디어소비트렌드2020_final.pdf
+ > 출처: https://kdx.kr/data/view/31501 
+- 코로나19 전후 업종별 소비 금액 증감율_2022년 2월 - 한국데이터거래소 (매일방송MBN) 
+ > 출처: https://kdx.kr/data/view/32880 
+- 카드사와 편의점 데이터가 만나면? 새롭게 찾은 편의점 쇼핑 인사이트 
+ > 파일: Samsungcard_Vol.1_CSV.pdf  
+ > 출처: https://kdx.kr/data/view/32871  
+- 편의점에서 무엇을 먹을까? 
+ > https://www.bigdata-finance.kr/dataset/datasetView.do 
+- Post COVID-19 & 이커머스시장 변화 
+ > 출처: https://www.bigdata-finance.kr/dataset/datasetView.do 
+
+교통 빅데이터에 관심 
+- 교통카드 빅데이터 통합정보시스템 (도로교통공단) 
+ > https://stcis.go.kr/wps/dashBoard.do 
+- 파일: 한국교통연구원.pdf 
