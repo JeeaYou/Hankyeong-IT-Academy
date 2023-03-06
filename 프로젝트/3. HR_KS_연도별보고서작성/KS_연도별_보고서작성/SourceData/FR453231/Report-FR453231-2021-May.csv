@@ -1,0 +1,5 @@
+InvoiceNumber,Item,Amount,Tax,Total,Currency,Date
+534149,"IT Support",67322,13464.4,80786.4,RON,2017-05-22
+365088,"IT Support",147699,29539.8,177239,CAD,2017-05-01
+174566,"Waste management services",149327,29865.4,179192,USD,2017-05-24
+221477,"Various paper supplies",28687,5737.4,34424.4,USD,2017-05-17

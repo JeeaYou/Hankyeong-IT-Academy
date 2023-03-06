@@ -1,0 +1,5 @@
+InvoiceNumber,Item,Amount,Tax,Total,Currency,Date
+758753,"IT Support",253118,50623.6,303742,RON,2017-01-05
+605333,"Concierge Services",216110,43222,259332,USD,2017-01-24
+699079,"Concierge Services",210,42,252,EUR,2017-01-19
+221852,"IT Support",123183,24636.6,147820,EUR,2017-01-23

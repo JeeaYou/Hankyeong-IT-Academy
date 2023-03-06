@@ -1,0 +1,4 @@
+InvoiceNumber,Item,Amount,Tax,Total,Currency,Date
+257551,"Professional Services",12515,2503,15018,USD,2017-12-20
+917850,"Waste management services",30214,6042.8,36256.8,RON,2017-12-13
+247284,"Waste management services",206851,41370.2,248221,EUR,2017-12-07
