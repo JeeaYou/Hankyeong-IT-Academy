@@ -1,0 +1,14 @@
+.table{
+    text-align: center;
+    border: thick double black;
+}
+
+.title{
+    border: thick double black;
+    background-color: pink;
+}
+
+.input{
+    border: thick double black;
+    width: 5;
+}

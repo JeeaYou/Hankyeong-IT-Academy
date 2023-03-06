@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% block content %}
+<body>
+    {% if [username]|length%2==0 %}
+        {{username|upper}} 님의 통계입니다.
+    {% else %}
+        {{username|lower}} 님의 통계입니다.
+    {% endif %}
+</body>
+{% endblock %}

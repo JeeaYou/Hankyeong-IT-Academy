@@ -1,0 +1,24 @@
+{% extends "base.html" %}
+{% block content %}
+<body>
+    <p>user 님의 통계입니다.</p>
+    <hr>
+    <table class="table">
+        <thead>
+            <tr>
+                <td class="title">이름</td>
+                <td class="title">ID</td>
+                <td class="title">레벨</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr class="input">
+                {% for n in user %}
+                    <td>{{[n]}}</td>
+                {% endfor %}
+            </tr>
+        </tbody>
+
+    </table>
+</body>
+{% endblock %}

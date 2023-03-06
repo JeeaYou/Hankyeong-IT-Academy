@@ -1,0 +1,14 @@
+
+/* 태그선택시, id selectot, class selector */
+body{
+    background-color: yellowgreen;
+}
+form p{
+    background-color: yellow;
+}
+#info{
+    background-color: cyan;
+}
+.red{
+    color: darkolivegreen;
+}

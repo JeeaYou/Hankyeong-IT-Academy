@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+{% block content %}
+<body>
+<form action="/gugudan" method="get">
+    <h1>구구단을 외자</h1>
+    <p>출력하고자 하는 구구단을 입력하세요.</p>
+    <p> <input type="text" name="gugudan" >
+        <button>구구단을 계산하기</button>
+    <p >아직 입력하지 않았습니다. </p>
+</form>
+</body>
+{% endblock %}
+
+
+{% if dan %}
+        {% for i in range(1,10) %}
+            {{dan}} X {{i}} = {{ dan|int * i }} <br>
+        {% endfor %}
+    {% else %}    
+        아직 아무 숫자도 입력 안되었습니다.
+    {% endif %}

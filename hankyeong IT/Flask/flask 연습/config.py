@@ -1,0 +1,9 @@
+import os
+
+BASE_DIR = os.path.dirname(__file__)
+
+SQLALCHEMY_DATABASE_URI = 'sqlite:///{}'.format(os.path.join(BASE_DIR,'pybo.db'))
+SQLALCHEMY_MODIFICATIONS = False
+
+# 비번 암호화
+SECRET_KEY = "dev"

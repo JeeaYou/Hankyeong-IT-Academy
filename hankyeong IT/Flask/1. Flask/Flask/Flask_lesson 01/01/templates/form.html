@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% block content %}
+<body>
+    <form action="/login_process" method="get">
+        <p>이름 : <input type="text" name="username"></p>
+        <p>암호 : <input type="password" name="pwd"></p>
+        <p id="info">이름을 입력하고 제출하기를 누르세요. 
+            <input type="submit" class="btn btn-primary" onclick="alert('제출 완료!')"></p>
+    </form>
+    <img src="static/flask.png" alt="flask" height="50">
+</body>
+{% endblock %}
